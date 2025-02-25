@@ -32,7 +32,7 @@ public class Player {
 
     @ManyToOne
     @JoinColumn(name = "team_id", nullable = false)
-    @JsonIgnoreProperties({"players", "id", "founded", "manager"})
+    @JsonIgnoreProperties({"players", "founded", "manager"})
     private Team team;
 
     public Player(String firstName, String lastName, int age, String parentClub){
