@@ -1,3 +1,6 @@
+# All not CRUD-operations where used in the frontend of this project.
+
+
 # Java Cloud Azure Day One
 
 ## Learning Objectives
